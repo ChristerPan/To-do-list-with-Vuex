@@ -50,7 +50,7 @@
                             <input type="checkbox" v-model="todo.completed">
 
                             <span class="my-auto" :class="{ 'text-decoration-line-through': todo.completed }"
-                                :style="{ color: todo.completed ? 'slategray' : 'black' }">{{todo.text}}{{todo.completed}}
+                                :style="{ color: todo.completed ? 'slategray' : 'black' }">{{todo.text}}
                             </span>
 
                             <button type="button" class="btn btn-outline-secondary" @click="deleteTodo(index)">
